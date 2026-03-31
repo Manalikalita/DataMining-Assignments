@@ -9,18 +9,31 @@ This repository contains implementations of basic Data Mining algorithms using P
 ```
 DataMining/
 │
+├── .gitignore
+├── README.md
+│
 ├── digit_recognition/
 │   ├── main.py
-│   └── mnist_train.csv(Dataset: Download MNIST dataset from Kaggle (https://www.kaggle.com/datasets/            oddrationale/mnist-in-csv) and place mnist_train.csv inside the digit_recognition folder.)
+│   └── mnist_train.csv
 │
 ├── naive_bayes/
 │   └── main.py
 │
 ├── knn_iris/
 │   └── main.py
-│
-└── README.md
 ```
+
+---
+
+## 📥 Dataset
+
+MNIST dataset is too large to upload on GitHub.
+
+Download it from:
+https://www.kaggle.com/datasets/oddrationale/mnist-in-csv
+
+After downloading, place:
+mnist_train.csv inside the `digit_recognition` folder.
 
 ---
 
@@ -37,7 +50,7 @@ DataMining/
 ### 2️⃣ Naive Bayes Classification
 
 * Dataset: MNIST (Online via OpenML)
-* Algorithm: Multinomial Naive Bayes
+* Algorithm: Gaussian Naive Bayes
 * Description: Probabilistic classifier based on Bayes theorem
 * Accuracy: ~80–90%
 
@@ -53,8 +66,6 @@ DataMining/
 ---
 
 ## ⚙️ Requirements
-
-Install required libraries:
 
 ```
 pip install numpy pandas matplotlib scikit-learn
@@ -101,5 +112,3 @@ python main.py
 ## 👩‍💻 Author
 
 * Name: Manali Kalita
-
----
